@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+
 import heroLogo from '../assets/hero-logo.jpg';
 import ContactModal from './ContactModal';
 
