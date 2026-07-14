@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
         {/* Right: Contact text */}
         <div className="md:text-right max-w-xs">
           <p className="text-gray-500 text-[13.5px] leading-relaxed mb-2">
-            We're always open to new ideas, collaborations and meaningful conversations.
+           Where Human Imagination Meets Artificial Intelligence.
           </p>
         </div>
       </div>

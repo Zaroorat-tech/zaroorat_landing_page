@@ -85,7 +85,7 @@ const SparkleIcon = () => (
 const Features: React.FC = () => {
   return (
     <section className="w-full bg-[#eef2ff]">
-      <div className="max-w-[1280px] mx-auto px-8 md:px-12 lg:px-16">
+      <div className="max-w-[1280px] mx-auto px-6 md:px-12 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-3">
           <FeatureCard
             icon={<HeartIcon />}
@@ -99,7 +99,7 @@ const Features: React.FC = () => {
             description="Verified professionals, transparent processes, and dependable service—because trust should never be optional."
             borderLeft
             borderRight
-            className="px-6 md:px-8 lg:px-10"
+            className="md:px-8 lg:px-10"
           />
           <FeatureCard
             icon={<SparkleIcon />}
