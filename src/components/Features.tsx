@@ -95,16 +95,18 @@ const Features: React.FC = () => {
           />
           <FeatureCard
             icon={<ShieldIcon />}
-            title="Built on Trust"
-            description="Verified professionals, transparent processes, and dependable service—because trust should never be optional."
+          
+            title="Driven by Purpose"
+            description="We're building a smarter ecosystem that empowers communities and simplifies everyday living"
+           
             borderLeft
             borderRight
             className="md:px-8 lg:px-10"
           />
           <FeatureCard
             icon={<SparkleIcon />}
-            title="Driven by Purpose"
-            description="We're building a smarter ecosystem that empowers communities and simplifies everyday living"
+              title="Built on Trust"
+             description="Verified professionals, transparent processes, and dependable service because trust should never be optional."
             className="md:pl-8 md:pr-0"
           />
         </div>

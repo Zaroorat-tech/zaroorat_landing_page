@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
         {/* Right: Contact text */}
         <div className="md:text-right max-w-xs">
           <p className="text-gray-500 text-[13.5px] leading-relaxed mb-2">
-            <h4 className="text-[#0d1b4b] font-bold text-[17px]">
+            <h4 className="text-[#0d1b4b] font-bold text-[15px]">
                Where Human Imagination Meets<br></br> 
            <p className="text-center">Artificial Intelligence.</p> 
             </h4>
