@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
         {/* Left: Stay connected + Social icons */}
         <div className="flex flex-col gap-4">
           <div>
-            <h4 className="text-[#0d1b4b] font-bold text-[19px]">Let's Stay Connected</h4>
+            <h4 className="text-[#0d1b4b] font-bold text-[19px]">Just Stay Connected!</h4>
             <div className="w-8 h-[2.5px] bg-[#0d1b4b] rounded-full mt-1.5" />
           </div>
 
