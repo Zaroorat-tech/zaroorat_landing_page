@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import heroLogo from '../assets/hero-logo.jpg';
-import ContactModal from './ContactModal';
 
 const Hero: React.FC = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
   return (
     <section id="home" className="w-full bg-white overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-6 md:px-12 lg:px-16 pt-4 pb-6 md:pt-6 md:pb-10 flex flex-col md:flex-row items-center justify-between gap-0 md:gap-10">
@@ -28,16 +25,6 @@ const Hero: React.FC = () => {
           <p className="text-gray-500 text-[15px] leading-relaxed mb-8 max-w-[300px]">
             We're building something thoughtful, reliable and human. For every journey that matters.
           </p>
-
-          {/* CTA Button */}
-          <button
-            onClick={() => setIsModalOpen(true)}
-            className="inline-flex items-center gap-2.5 bg-[#0d1b4b] text-white text-sm font-semibold
-              px-6 py-3 rounded-full hover:bg-[#1a2d6b] active:scale-95 transition-all duration-200 shadow-md"
-          >
-            Let's Connect
-            <span className="text-base font-normal">→</span>
-          </button>
         </div>
 
         {/* ── Right: Logo with circular background ── */}
@@ -64,12 +51,6 @@ const Hero: React.FC = () => {
         </div>
 
       </div>
-
-      {/* Render the contact form modal */}
-      <ContactModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      />
     </section>
   );
 };
