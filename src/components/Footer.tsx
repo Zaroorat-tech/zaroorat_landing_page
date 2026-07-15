@@ -91,8 +91,8 @@ const Footer: React.FC = () => {
         <div className="md:text-right max-w-xs">
           <p className="text-gray-500 text-[13.5px] leading-relaxed mb-2">
             <h4 className="text-[#0d1b4b] font-bold text-[15px]">
-               Where Human Imagination Meets<br></br> 
-           <p className="text-center">Artificial Intelligence.</p> 
+               Let's Build Something <br></br> 
+           <p className="text-center">Meaningful Together.</p> 
             </h4>
           
           </p>
