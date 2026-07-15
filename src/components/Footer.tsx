@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
         {/* Left: Stay connected + Social icons */}
         <div className="flex flex-col gap-4">
           <div>
-            <h4 className="text-[#0d1b4b] font-bold text-[19px]">Just Stay Connected!</h4>
+            <h4 className="text-[#0d1b4b] font-bold text-[19px]">Stay Connected!</h4>
             <div className="w-8 h-[2.5px] bg-[#0d1b4b] rounded-full mt-1.5" />
           </div>
 
@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
           <p className="text-gray-500 text-[13.5px] leading-relaxed mb-2">
             <h4 className="text-[#0d1b4b] font-bold text-[15px]">
                Let's Build Something <br></br> 
-           <p className="text-center">Meaningful Together.</p> 
+           <p className="text-center">Meaningful Together</p> 
             </h4>
           
           </p>
