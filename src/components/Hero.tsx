@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
 
           {/* Main Heading */}
           <h1 className="text-[#0d1b4b] font-extrabold text-4xl md:text-5xl lg:text-[56px] leading-[1.1] mb-1">
-            Everyone needs
+            Everyone Needs
           </h1>
           <h1 className="text-[#2563eb] font-extrabold text-4xl md:text-5xl lg:text-[56px] leading-[1.1] mb-5">
             Someone!

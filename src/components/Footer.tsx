@@ -52,6 +52,16 @@ const Footer: React.FC = () => {
                 </svg>
               }
             />
+              {/* Facebook */}
+            <SocialLink
+              href="https://www.facebook.com/share/186rQrmKMf/"
+              label="Facebook"
+              icon={
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                </svg>
+              }
+            />
             {/* LinkedIn */}
             <SocialLink
               href="https://www.linkedin.com/company/zarooratservices/"
@@ -73,23 +83,15 @@ const Footer: React.FC = () => {
                 </svg>
               }
             />
-            {/* Facebook */}
-            <SocialLink
-              href="https://www.facebook.com/share/186rQrmKMf/"
-              label="Facebook"
-              icon={
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
-                </svg>
-              }
-            />
+          
           </div>
         </div>
 
         {/* Right: Contact text */}
         <div className="md:text-right max-w-xs">
           <p className="text-gray-500 text-[13.5px] leading-relaxed mb-2">
-           Where Human Imagination Meets Artificial Intelligence.
+           Where Human Imagination Meets<br></br> 
+           <p className="text-center">Artificial Intelligence.</p> 
           </p>
         </div>
       </div>
