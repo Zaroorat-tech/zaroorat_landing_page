@@ -43,44 +43,8 @@ const HeartIcon = () => (
   </svg>
 );
 
-const ShieldIcon = () => (
-  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-    <path
-      d="M12 2L4 6v6c0 5.25 3.5 10.15 8 11.5C16.5 22.15 20 17.25 20 12V6L12 2z"
-      stroke="#2563eb"
-      strokeWidth="1.8"
-      fill="none"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <path
-      d="M9 12l2 2 4-4"
-      stroke="#2563eb"
-      strokeWidth="1.8"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
 
-const SparkleIcon = () => (
-  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-    <path
-      d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3z"
-      stroke="#2563eb"
-      strokeWidth="1.8"
-      fill="none"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <path d="M5 17l.8 2.4 2.4-.8M19 17l-.8 2.4-2.4-.8"
-      stroke="#2563eb"
-      strokeWidth="1.4"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
+
 
 const LightbulbIcon = () => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
@@ -90,14 +54,6 @@ const LightbulbIcon = () => (
   </svg>
 );
 
-const BrainIcon = () => (
-  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-    <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M17.599 6.5a3 3 0 0 0 .399-1.375" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-);
 
 const HandshakeIcon = () => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
