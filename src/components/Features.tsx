@@ -94,7 +94,7 @@ const Features: React.FC = () => {
             className="md:pr-8 md:pl-0"
           />
           <FeatureCard
-            icon={<ShieldIcon />}
+            icon={<SparkleIcon />}
           
             title="Driven by Purpose"
             description="We're building a smarter ecosystem that empowers communities and simplifies everyday living"
@@ -104,7 +104,7 @@ const Features: React.FC = () => {
             className="md:px-8 lg:px-10"
           />
           <FeatureCard
-            icon={<SparkleIcon />}
+            icon={<ShieldIcon />}
               title="Built on Trust"
              description="Verified professionals, transparent processes, and dependable service because trust should never be optional."
             className="md:pl-8 md:pr-0"
