@@ -55,15 +55,22 @@ const LightbulbIcon = () => (
 );
 
 
-const HandshakeIcon = () => (
+const ShieldCheckIcon = () => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-    <path d="m11 17 2 2a1 1 0 1 0 3-3" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="m21 3-6 6" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="m21 14-5-5" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="m4 12 8 8" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="m4 21 8-8" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M4 17a4 4 0 1 0 0-8" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    <path
+      d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+      stroke="#2563eb"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="m9 12 2 2 4-4"
+      stroke="#2563eb"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
   </svg>
 );
 
@@ -80,18 +87,18 @@ const Features: React.FC = () => {
           />
           <FeatureCard
             icon={<LightbulbIcon />}
-          
+
             title="Driven by Purpose"
             description="We're building a smarter ecosystem that empowers communities and simplifies everyday living"
-           
+
             borderLeft
             borderRight
             className="md:px-8 lg:px-10"
           />
           <FeatureCard
-            icon={<HandshakeIcon />}
-              title="Built on Trust"
-             description="Verified professionals, transparent processes, and dependable service because trust should never be optional."
+            icon={<ShieldCheckIcon />}
+            title="Built on Trust"
+            description="Verified professionals, transparent processes, and dependable service because trust should never be optional."
             className="md:pl-8 md:pr-0"
           />
         </div>
