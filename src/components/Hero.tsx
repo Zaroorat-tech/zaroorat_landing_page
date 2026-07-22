@@ -2,6 +2,8 @@ import React from 'react';
 
 import heroLogo from '../assets/hero-logo.jpg';
 
+import AnimatedText from './AnimatedText';
+
 const Hero: React.FC = () => {
   return (
     <section id="home" className="w-full bg-white overflow-hidden">
@@ -15,7 +17,7 @@ const Hero: React.FC = () => {
             Everyone Needs
           </h1>
           <h1 className="text-[#2563eb] font-extrabold text-4xl md:text-5xl lg:text-[56px] leading-[1.1] mb-5">
-            Someone!
+            <AnimatedText words={['Someone!', 'Plumber!', 'Electrician!', 'Painter!', 'Cleanliness!', 'Fireproofing!', 'Commuting!']} />
           </h1>
 
           {/* Blue divider line */}
@@ -23,7 +25,7 @@ const Hero: React.FC = () => {
 
           {/* Description */}
           <p className="text-gray-500 text-[15px] leading-relaxed mb-8 max-w-[300px]">
-            We're building something thoughtful, reliable and human. For every journey that matters.
+            Building something thoughtful, dependable, and deeply human for every journey that truly matters.
           </p>
         </div>
 
