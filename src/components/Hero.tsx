@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           <div className="w-10 h-[3px] bg-[#2563eb] rounded-full mb-6" />
 
           {/* Description */}
-          <p className="text-gray-500 text-[15px] leading-relaxed mb-8 max-w-[300px]">
+          <p className="text-gray-500 text-[15px] leading-relaxed mb-8 max-w-[480px]">
             Building something thoughtful, dependable, and deeply human for every journey that truly matters.
           </p>
         </div>
