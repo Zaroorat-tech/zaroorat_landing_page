@@ -62,7 +62,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ words, className = "" }) =>
       opacity: [1, 0],
       duration: 250,
       easing: "easeOutExpo",
-      delay: 1500
+      delay: 800
     });
 
     return () => {
