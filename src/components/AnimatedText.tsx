@@ -42,27 +42,27 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ words, className = "" }) =>
       scaleY: [0, 1],
       opacity: [0.5, 1],
       easing: "easeOutExpo",
-      duration: 700
+      duration: 350
     })
     .add({
       targets: line,
       translateX: [0, textWidth + 10],
       easing: "easeOutExpo",
-      duration: 700
-    }, '+=100') // Wait 100ms after previous animation ends
+      duration: 350
+    }, '+=50') // Wait 50ms after previous animation ends
     .add({
       targets: Array.from(letters), // Convert NodeList to Array for maximum compatibility
       opacity: [0, 1],
       easing: "easeOutExpo",
-      duration: 600,
-      delay: (_el: any, i: number) => 34 * (i + 1)
-    }, '-=775') // Start 775ms before the end of the previous animation
+      duration: 300,
+      delay: (_el: any, i: number) => 17 * (i + 1)
+    }, '-=380') // Start 380ms before the end of the previous animation
     .add({
       targets: containerRef.current,
       opacity: [1, 0],
-      duration: 400,
+      duration: 250,
       easing: "easeOutExpo",
-      delay: 2500
+      delay: 1500
     });
 
     return () => {
